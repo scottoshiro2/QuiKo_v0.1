@@ -1,4 +1,4 @@
-# QuiKo_v0.1 (Still Under Construction...)
+# QuiKo_v0.1
 
 OVERVIEW
 
