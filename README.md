@@ -1,8 +1,9 @@
 # QuiKo_v0.1 (Still Under Construction...)
 
-QuiKo is a quantum computing music generation application that takes in an raw audio file and generates a MIDI file based on the audio file's percussive and harmonic content. It performs feature extraction utilizing Python's Librosa package to perform beat tracking, Harmonic Percussive source separation (HPSS) and onset detection. This information is then mapped to a X and Z rotation angle to prepare allocated qubits into a corresponding state based off these features. 
+OVERVIEW
 
-Once the allocated qubits are prepared into a specific quantum state a 8 qubit system us set up and phase estimation is performed. The estimated phased gives us the 
+QuiKo is an expansion of the QuBeats project that was developed and presented at IBM’s Qiskit Camp Africa 2019. In the previous project, QuBeats takes in multiple MIDI files as input, and through entanglement and teleportation algorithms generated new MIDI tracks that contained similar rhythmic structures as the original inputs. QuiKo expands upon this design by extracting percussive and harmonic features from raw audio files and then maps the information to controlled unitary gates preparing allocated qubits into various states of superposition based upon the original input file. Measuring these qubits in combination with implementing phase estimation to calculated the phase kickback on the control qubits of the quantum circuit 
 
-Output:
-The circuit for each corresponding beat within the input audio file
+ORGANIC RULE
+
+QuiKo builds upon soft rules, a concept presented in Alexis Kirke’s research in quantum music generation [4], and takes it a step further. Here an ‘Organic Rule’ is proposed, which attempts to mimic the affects and influences that instinct has on musicians in the music making process. 
