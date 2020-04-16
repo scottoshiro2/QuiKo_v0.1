@@ -1,4 +1,4 @@
-# QuiKo_v0.1
+# QuiKo_v1.0
 
 OVERVIEW
 
